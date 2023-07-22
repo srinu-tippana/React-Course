@@ -12,3 +12,4 @@
 - Minification
 - Bundling
 - Compressing 
+https://parceljs.org/docs/
