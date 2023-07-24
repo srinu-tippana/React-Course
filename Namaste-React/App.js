@@ -56,7 +56,8 @@ const parent = React.createElement(
 /*
    Jsx is HTML/XML like syntax
 */
-const jsxHeading=<h1 id ="heading" tabIndex="5"> Namaste React using Jsx</h1>
+// JSX->Babel transpiles it to React.createElement => React Object  => renders to HTML
+ const jsxHeading=<h1 id ="heading" tabIndex="5"> Namaste React using Jsx</h1>
 console.log(heading);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(jsxHeading);
