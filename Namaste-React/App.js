@@ -38,7 +38,7 @@ const parent = React.createElement(
     </div>
 </div>*/
 
-const secondParent = React.createElement(
+/*const secondParent = React.createElement(
   "div",
   { id: "top parent" },[
     React.createElement("div", { id: "child1" }, [
@@ -52,7 +52,11 @@ const secondParent = React.createElement(
 
   ]
 
-);
+);*/
+/*
+   Jsx is HTML/XML like syntax
+*/
+const jsxHeading=<h1 id ="heading"> Namaste React using Jsx</h1>
 console.log(heading);
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(secondParent);
+root.render(jsxHeading);
