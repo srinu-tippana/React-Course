@@ -58,6 +58,27 @@ const parent = React.createElement(
 */
 // JSX->Babel transpiles it to React.createElement => React Object  => renders to HTML
  const jsxHeading=<h1 id ="heading" tabIndex="5"> Namaste React using Jsx</h1>
+
+ /*const HeadingComponent =()=>(
+
+  <h1 className="heading"> Namaste React using functional component </h1>
+ );*/
+
+ const Title = () =>  ( 
+ <h1 className="title" >
+      Namaste React Using Jsx
+  </h1>
+
+ )
+ 
+ /* Component written in inside Component Composition */
+ const HeadingComponent = ()=>(
+  
+  <div id="container">
+    <Title/>
+    <h1> Hello from React FunctionalComponent</h1>
+  </div>
+ )
 console.log(heading);
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(jsxHeading);
+root.render(<HeadingComponent/>);
