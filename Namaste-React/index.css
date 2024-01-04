@@ -8,10 +8,11 @@
     width:200px;
 }
 .nav-items{
-    font-size: 24px;
+   
     padding : 0px 20px;
 }
 .nav-items > ul{
+    font-size: 24px;
     display:flex;
     list-style-type: none;
     
@@ -20,4 +21,75 @@
 .nav-items > ul >li{
     padding:10px;
     margin:10px;
+}
+
+.res-container{
+   
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.res-card{
+  
+    margin:5px;
+    padding:5px;
+    width:190px;
+    height: 390px;
+    overflow-wrap: break-word;
+ 
+   
+   
+}
+
+.res-card:hover{
+    border: 1px solid black;
+    cursor:pointer;
+    
+}
+
+.search{
+    padding:10px;
+}
+.res-logo{
+    
+    width: 100%;
+    height: 40%;
+   
+}
+.filter-btn{
+     cursor:pointer;
+     
+}
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer-card{
+    border:1px solid black;
+    margin :10px;
+    width:200px;
+    height: 400px;
+    background-color:#f0f0f0;
+
+}
+.login{
+    padding: 0 20px;
+    cursor: pointer;
+}
+.filter{
+    display: flex;
+}
+.res-menu-logo{
+    width:20%;
+    height: 20%;
+}
+
+.item-card{
+
+    margin:10px;
+}
+.user-card{
+    padding:10px;
+    border:1px solid black;
 }
